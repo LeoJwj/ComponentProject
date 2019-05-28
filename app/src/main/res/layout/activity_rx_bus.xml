@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+            android:text="TextView"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="176dp"
+            android:id="@+id/textView" android:layout_y="59dp" android:layout_x="175dp"/>
+    <Button
+            android:visibility="visible"
+            android:text="根据tag发送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button" android:layout_y="225dp" android:layout_x="6dp"/>
+    <Button
+            android:visibility="visible"
+
+            android:text="普通发送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2" android:layout_y="220dp" android:layout_x="251dp"/>
+    <Button
+            android:visibility="visible"
+
+            android:text="异步线程发送"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3" android:layout_y="323dp" android:layout_x="6dp"/>
+    <Button
+            android:text="Button"
+            android:visibility="visible"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4" android:layout_y="328dp" android:layout_x="266dp"/>
+</AbsoluteLayout>
